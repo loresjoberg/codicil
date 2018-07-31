@@ -1,0 +1,27 @@
+{
+    "name": "loresjoberg/codicil",
+    "description": "Object-oriented facade for WordPress",
+    "keywords": ["library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lore Sjoberg",
+            "email": "loresjoberg@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "loresjoberg/warp": "^1.0"
+    },
+	"require-dev": {
+        "mockery/mockery": "^1.1.0",
+		"phpunit/phpunit": "^7.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "LoreSjoberg\\Codicil\\": "src/",
+            "Psr\\Container\\": "src/Psr"
+        }
+    }
+}
