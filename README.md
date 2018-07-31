@@ -1,6 +1,15 @@
 Codicil -- A Fluent Query Interface for WordPress
 =================================================
 
+Installation
+------------
+
+Install using [Composer][composer]:
+
+````
+    composer require loresjoberg/codicil
+````
+
 Usage
 -----
 
